@@ -7,6 +7,7 @@ phases:
   build:
     commands:
       - docker version
+      - docker build .
   post_build:
     commands:
       - helm version
